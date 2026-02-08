@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Farm to Table CSA</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;600;700&family=Zilla+Slab:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-custom navbar-sm" aria-label="Primary">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/farmtotable-colorlogo.svg"
+            alt="Farm to Table CSA Logo"
+            class="logo"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#mainNavbar"
+          aria-controls="mainNavbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+
+      <!-- HERO CAROUSEL -->
+      <section class="hero">
+        <div id="heroCarousel"
+            class="carousel slide"
+            data-bs-ride="carousel"
+            data-bs-interval="3500"
+            data-bs-pause="false">
+
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/farmtotable-csa-box-vegetable-assortment-1200x800.jpg"
+                class="d-block w-100 hero-img hero-veg"
+                alt="Vegetables"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/farmtotable-farmer-harvesting-field-1200x800.jpg"
+                class="d-block w-100 hero-img hero-farmer"
+                alt="Farmer"
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="images/farmtotable-eggs-carton-addons-800x600.jpg"
+                class="d-block w-100 hero-img hero-eggs"
+                alt="Eggs"
+              />
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+
+        </div>
+      </section>
+
+      <!-- SECONDARY SECTION -->
+      <section class="container main-wrap">
+        <div class="main-box text-center">
+          <h1>Farm to Table CSA</h1>
+          <p class="lead">
+            Seasonal, farm-fresh produce grown with organic and non-GMO practices.
+            Join our CSA to get weekly shares and support a local family-run farm in
+            Elberta, Alabama.
+          </p>
+
+          <a href="services.html" class="btn btn-primary mt-3">Join the CSA</a>
+        </div>
+      </section>
+
+<!-- SUPPORTING CONTENT -->
+<section class="container support-wrap">
+  <div class="support-box text-center">
+    <h2 class="mb-4">Supporting Content</h2>
+
+    <div class="row g-4 justify-content-center">
+
+      <div class="col-12 col-lg-6">
+        <div class="service-card h-100">
+          <img
+            src="images/farmtotable-weekly-produce-delivery-1200x800.jpg"
+            alt="CSA produce box filled with seasonal vegetables"
+            class="service-img"
+          />
+          <h3 class="h5">Seasonal Shares</h3>
+          <p class="mb-0">
+            Weekly produce boxes during spring and fall seasons with fresh, local harvests.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <div class="service-card h-100">
+          <img
+            src="images/farmtotable-family-working-on-farm-1200x800.jpg"
+            alt="Family working together harvesting vegetables on a farm"
+            class="service-img"
+          />
+          <h3 class="h5">Community + Organic</h3>
+          <p class="mb-0">
+            Locally grown produce using organic practices to support healthy food and community.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="bg-custom text-center mt-auto">
+      <p class="mb-1"><strong>Farm to Table CSA</strong></p>
+      <p class="mb-1">5987 Baldwin-Carre Road, Elberta, Alabama 36530</p>
+      <p class="mb-1">Call: (251) 222-2222 | Email: contact@farmtotablecsa.com</p>
+      <p class="mb-2">Web: farmtotablecsa.com</p>
+
+      <a href="https://facebook.com" class="text-white me-3" aria-label="Facebook">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://instagram.com" class="text-white me-3" aria-label="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+      <a href="https://YouTube.com" class="text-white me-3" aria-label="YouTube">
+        <i class="bi bi-youtube"></i>
+      </a>
+
+      <p class="mt-3 mb-0">&copy; 2026 Farm to Table CSA</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
